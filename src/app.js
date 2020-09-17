@@ -8,7 +8,7 @@ const { runInNewContext } = require("vm");
 
 const app = express();
 
-// Define paths for Express config
+// Define paths for Express confi
 const publickDirectoryPath = path.join(__dirname, "../public");
 const viewsPath = path.join(__dirname, "../templates/views");
 const partialsPath = path.join(__dirname, "../templates/partials")
